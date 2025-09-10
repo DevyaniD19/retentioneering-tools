@@ -125,3 +125,18 @@ u001    | purchase    | 2024-01-15 09:07:00
 - [ ] Interactive Plotly/Dash dashboard
 - [ ] BigQuery and Snowflake connectors
 - [ ] Export to Amplitude / Mixpanel format
+
+## 🏁 Getting Started in 5 Minutes
+
+```python
+from retentioneering import EventStream
+from retentioneering.sample_data import generate_sample_data
+
+# Generate 500 users with e-commerce event data
+data = generate_sample_data(n_users=500, seed=42)
+stream = EventStream(data)
+
+# Get funnel conversion rates
+funnel = stream.funnel(stages=["visit", "view_product", "add_to_cart", "purchase"])
+funnel.plot()
+```
