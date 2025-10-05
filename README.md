@@ -1,5 +1,8 @@
 # Retentioneering Tools
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A simplified Python toolkit for user behavior analytics from event log data.
 
 ## Features
