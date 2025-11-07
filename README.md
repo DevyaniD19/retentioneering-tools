@@ -95,3 +95,22 @@ retentioneering-tools/
 
 - Python >= 3.8
 - pandas, numpy, matplotlib, seaborn, networkx, scikit-learn
+
+## 🎯 Use Cases
+
+- **E-commerce**: Identify where users drop off in the checkout funnel
+- **SaaS Products**: Track feature adoption across user cohorts
+- **Mobile Apps**: Analyze onboarding completion and Day-7 retention
+- **Games**: Study progression through game levels and churn points
+- **Content Platforms**: Map content discovery paths and session patterns
+
+## 📁 Sample Data Schema
+
+```
+user_id | event       | timestamp
+--------|-------------|---------------------
+u001    | visit_home  | 2024-01-15 09:00:00
+u001    | view_product| 2024-01-15 09:02:00
+u001    | add_to_cart | 2024-01-15 09:04:00
+u001    | purchase    | 2024-01-15 09:07:00
+```
