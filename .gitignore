@@ -1,52 +1,36 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.pyo
-*.pyd
 *.so
 *.egg
 *.egg-info/
 dist/
 build/
 .eggs/
-*.whl
 
 # Virtual environments
-.venv/
-venv/
+.env
+.venv
 env/
-ENV/
+venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# Environment variables
-.env
-.env.*
-
-# IDE / Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Data
+*.csv
+*.tsv
+*.parquet
 
 # OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Testing
+# IDE
+.vscode/
+.idea/
+
+# pytest
 .pytest_cache/
 .coverage
 htmlcov/
-coverage.xml
-
-# Distribution
-*.tar.gz
-*.zip
-
-# Logs
-*.log
