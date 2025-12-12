@@ -114,3 +114,14 @@ u001    | view_product| 2024-01-15 09:02:00
 u001    | add_to_cart | 2024-01-15 09:04:00
 u001    | purchase    | 2024-01-15 09:07:00
 ```
+
+## 🗺️ Roadmap
+
+- [x] EventStream core
+- [x] Transition graph visualization
+- [x] Funnel and retention analysis
+- [x] Cohort analysis
+- [ ] A/B test significance testing module
+- [ ] Interactive Plotly/Dash dashboard
+- [ ] BigQuery and Snowflake connectors
+- [ ] Export to Amplitude / Mixpanel format
